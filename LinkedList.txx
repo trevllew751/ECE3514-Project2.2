@@ -149,3 +149,14 @@ Node<T> *LinkedList<T>::getNodeAt(int position) const {
     }
     return nullptr;
 }
+
+template<typename T>
+void LinkedList<T>::printList() {
+    Node<T> * curr = head;
+    std::cout << curr->getItem();
+    curr = curr->getNext();
+    while (curr != nullptr) {
+        std::cout << " -> " << curr->getItem();
+    }
+    std::cout << std::endl;
+}
