@@ -40,3 +40,24 @@ TEST_CASE("Test delete file", "[FileAllocManager]") {
     REQUIRE(m.deleteFile("file2"));
     REQUIRE(m.numOccupiedBlocks() == 0);
 }
+
+//TEST_CASE("Test seek file", "[FileAllocManager]") {
+//
+//}
+
+TEST_CASE("Test list files", "[FileAllocManager]") {
+    FileAllocManager m;
+    std::vector<std::string> answer{"file3", "file2", "file1"};
+    m.addFile("file1", 1);
+    m.addFile("file2", 2);
+    m.addFile("file3", 3);
+    REQUIRE(m.listFiles() == answer);
+}
+
+TEST_CASE("Test print disk", "[FileAllocManager]") {
+    FileAllocManager m;
+    m.addFile("file1", 1);
+    m.addFile("file2", 2);
+    m.addFile("file3", 3);
+    REQUIRE_FALSE(m.printDisk().empty());
+}

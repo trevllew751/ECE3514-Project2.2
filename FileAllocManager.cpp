@@ -11,14 +11,17 @@ FileAllocManager::FileAllocManager() {
 }
 
 FileAllocManager::~FileAllocManager() {
-    for (Block &b: disk) {
-        delete[] b.arr;
-    }
-    directory.clear();
+    clear();
 }
 
 void FileAllocManager::clear() {
-
+    for (Block &b : disk) {
+        b.occupied = false;
+        delete[] b.arr;
+        b.arr = nullptr;
+        b.arrSize = 0;
+    }
+    directory.clear();
 }
 
 std::vector<unsigned int> FileAllocManager::addFile(std::string filename, int filesize) {
@@ -62,7 +65,7 @@ bool FileAllocManager::deleteFile(std::string filename) {
         disk[index->arr[i]].occupied = false;
         occupiedBlocks--;
     }
-    delete[] index->arr;
+//    delete[] index->arr;
     index->arr = nullptr;
     index->occupied = false;
     index->arrSize = 0;
@@ -76,11 +79,25 @@ int FileAllocManager::seekFile(std::string filename, int blocknumber) const {
 }
 
 std::vector<std::string> FileAllocManager::listFiles() const {
-    return std::vector<std::string>();
+    std::vector<File> files;
+    std::vector<std::string> result;
+    for (int i = 1; i < directory.getLength() + 1; i++) {
+        files.push_back(directory.getEntry(i));
+    }
+    for (auto it = files.rbegin(); it != files.rend(); ++it) {
+        result.push_back((*it).name);
+    }
+    return result;
 }
 
 std::vector<unsigned int> FileAllocManager::printDisk() const {
-    return std::vector<unsigned int>();
+    std::vector<unsigned int> result;
+    for (int i = 0; i < MAX_BLOCKS; i++) {
+        if (disk[i].occupied) {
+            result.push_back(i);
+        }
+    }
+    return result;
 }
 
 int FileAllocManager::findFile(std::string filename) const {
