@@ -8,20 +8,20 @@
 
 /**
  * This is a LinkedList class. It uses Nodes to store data.
- */  
+ */
 template<typename T>
 class LinkedList : public AbstractList<T>
 {
 public:
    LinkedList();
-    
+
    /** This is the copy constructor. It make a copy of the parameter.  It is also used by the operator= in the copy-swap paradigm.
     @param rhs - the LinkedList we are copying during construction
    */
    LinkedList(const LinkedList& rhs);
-    
+
    virtual ~LinkedList();
-    
+
    /** This is the assignment operator. It uses the copy-swap paradigm to create a copy of the parameter
     @param rhs - the LinkedList we are assigning to this
     @return a reference to the list that was copied into, a.k.a. *this
@@ -32,12 +32,12 @@ public:
     @return  True if the list is empty; otherwise returns false.
    */
    bool isEmpty() const;
-    
+
    /** Gets the current number of entries in this list.
     @return  The integer number of entries currently in the list.
    */
    int getLength() const;
-    
+
    /** Inserts an entry into this list at a given position.
     @pre None.
     @post  If 1 <= position <= getLength() + 1 and the insertion is
@@ -49,7 +49,7 @@ public:
     @return  True if the insertion is successful, or false if not.
    */
    bool insert(int newPosition, const T& newEntry);
-    
+
    /** Removes the entry at a given position from this list.
     @pre  None.
     @post  If 1 <= position <= getLength() and the removal is successful,
@@ -59,12 +59,12 @@ public:
     @return  True if the removal is successful, or false if not.
    */
    bool remove(int position);
-    
+
    /** Removes all entries from this list.
     @post  The list contains no entries and the count of items is 0.
    */
    void clear();
-   
+
    /** Gets the entry at the given position in this list.
     @pre  1 <= position <= getLength().
     @post  The desired entry has been returned.
@@ -87,16 +87,16 @@ public:
 	 @param rhs - the LinkedList on the right...Right Hand Side (rhs)
    */
 	void swap(LinkedList& lhs, LinkedList& rhs);
-    
+
     /** Prints the content of the list to the screen. */
     void printList();
-    
+
 private:
     Node<T>* head; // Pointer to first node in the chain
                    //(contains the first entry in the list)
-     
+
     int count;     // Current count of list items
-    
+
     /** Locates a specified node in this linked list.
      @pre  position is the number of the desired node;
            position >= 1 and position <= itemCount.
