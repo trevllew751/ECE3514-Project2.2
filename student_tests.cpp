@@ -24,3 +24,19 @@ TEST_CASE("Test add file", "[FileAllocManager]") {
     REQUIRE(m.addFile("file1", 2) == empty);
     REQUIRE(m.numOccupiedBlocks() == 9);
 }
+
+
+TEST_CASE("Test delete file", "[FileAllocManager]") {
+    FileAllocManager m;
+    std::vector<unsigned int> vect = m.addFile("file1", 1);
+    m.addFile("file2", 2);
+    m.addFile("file3", 3);
+    REQUIRE(m.numOccupiedBlocks() == 9);
+    REQUIRE(m.deleteFile("file1"));
+    REQUIRE(m.numOccupiedBlocks() == 7);
+    REQUIRE(m.deleteFile("file3"));
+    REQUIRE(m.numOccupiedBlocks() == 3);
+    REQUIRE_FALSE(m.deleteFile("file3"));
+    REQUIRE(m.deleteFile("file2"));
+    REQUIRE(m.numOccupiedBlocks() == 0);
+}

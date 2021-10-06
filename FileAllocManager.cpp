@@ -14,6 +14,7 @@ FileAllocManager::~FileAllocManager() {
     for (Block &b: disk) {
         delete[] b.arr;
     }
+    directory.clear();
 }
 
 void FileAllocManager::clear() {
@@ -28,10 +29,10 @@ std::vector<unsigned int> FileAllocManager::addFile(std::string filename, int fi
     std::vector<unsigned int> result;
 
     // Create index block for the file
-    Block index{true, new int[filesize], filesize}; // set occupied, arr, arrSize
+    Block *index = new Block{true, new int[filesize], filesize};
     int start = rand() % MAX_BLOCKS;                             // Random search start
     int indexBlockLocation = findFirstAvailBlock(start);         // Find first open location
-    disk[indexBlockLocation] = index;                            // Add index block to the disk
+    disk[indexBlockLocation] = *index;                            // Add index block to the disk
     result.push_back(indexBlockLocation);
     occupiedBlocks++;
 
@@ -42,17 +43,32 @@ std::vector<unsigned int> FileAllocManager::addFile(std::string filename, int fi
         Block b{true, nullptr, 0};
         disk[location] = b;
         occupiedBlocks++;
-        index.arr[arrIndex] = location;
+        index->arr[arrIndex] = location;
         result.push_back(location);
         arrIndex++;
     }
-    File f{filename, filesize, &index};
+    File f{filename, filesize, index};
     directory.insert(directory.getLength() + 1, f);
     return result;
 }
 
 bool FileAllocManager::deleteFile(std::string filename) {
-    return false;
+    int location = findFile(filename);
+    if (location == -1) {
+        return false;
+    }
+    Block *index = directory.getEntry(location).indexBlock;
+    for (int i = 0; i < index->arrSize; i++) {
+        disk[index->arr[i]].occupied = false;
+        occupiedBlocks--;
+    }
+    delete[] index->arr;
+    index->arr = nullptr;
+    index->occupied = false;
+    index->arrSize = 0;
+    occupiedBlocks--;
+    directory.remove(location);
+    return true;
 }
 
 int FileAllocManager::seekFile(std::string filename, int blocknumber) const {
