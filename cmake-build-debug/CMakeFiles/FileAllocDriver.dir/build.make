@@ -46,10 +46,10 @@ RM = C:\Users\Trevl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2"
+CMAKE_SOURCE_DIR = "C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles\FileAllocDriver.dir\depend.make
@@ -62,40 +62,40 @@ include CMakeFiles\FileAllocDriver.dir\flags.make
 
 CMakeFiles\FileAllocDriver.dir\FileAllocManager.cpp.obj: CMakeFiles\FileAllocDriver.dir\flags.make
 CMakeFiles\FileAllocDriver.dir\FileAllocManager.cpp.obj: ..\FileAllocManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FileAllocDriver.dir/FileAllocManager.cpp.obj"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\FileAllocDriver.dir\FileAllocManager.cpp.obj /FdCMakeFiles\FileAllocDriver.dir\ /FS -c "C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\FileAllocManager.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FileAllocDriver.dir/FileAllocManager.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\FileAllocDriver.dir\FileAllocManager.cpp.obj /FdCMakeFiles\FileAllocDriver.dir\ /FS -c "C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\FileAllocManager.cpp"
 <<
 
 CMakeFiles\FileAllocDriver.dir\FileAllocManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FileAllocDriver.dir/FileAllocManager.cpp.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe > CMakeFiles\FileAllocDriver.dir\FileAllocManager.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\FileAllocManager.cpp"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe > CMakeFiles\FileAllocDriver.dir\FileAllocManager.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\FileAllocManager.cpp"
 <<
 
 CMakeFiles\FileAllocDriver.dir\FileAllocManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FileAllocDriver.dir/FileAllocManager.cpp.s"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\FileAllocDriver.dir\FileAllocManager.cpp.s /c "C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\FileAllocManager.cpp"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\FileAllocDriver.dir\FileAllocManager.cpp.s /c "C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\FileAllocManager.cpp"
 <<
 
 CMakeFiles\FileAllocDriver.dir\FileAllocDriver.cpp.obj: CMakeFiles\FileAllocDriver.dir\flags.make
 CMakeFiles\FileAllocDriver.dir\FileAllocDriver.cpp.obj: ..\FileAllocDriver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FileAllocDriver.dir/FileAllocDriver.cpp.obj"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\FileAllocDriver.dir\FileAllocDriver.cpp.obj /FdCMakeFiles\FileAllocDriver.dir\ /FS -c "C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\FileAllocDriver.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FileAllocDriver.dir/FileAllocDriver.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\FileAllocDriver.dir\FileAllocDriver.cpp.obj /FdCMakeFiles\FileAllocDriver.dir\ /FS -c "C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\FileAllocDriver.cpp"
 <<
 
 CMakeFiles\FileAllocDriver.dir\FileAllocDriver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FileAllocDriver.dir/FileAllocDriver.cpp.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe > CMakeFiles\FileAllocDriver.dir\FileAllocDriver.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\FileAllocDriver.cpp"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe > CMakeFiles\FileAllocDriver.dir\FileAllocDriver.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\FileAllocDriver.cpp"
 <<
 
 CMakeFiles\FileAllocDriver.dir\FileAllocDriver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FileAllocDriver.dir/FileAllocDriver.cpp.s"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\FileAllocDriver.dir\FileAllocDriver.cpp.s /c "C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\FileAllocDriver.cpp"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\FileAllocDriver.dir\FileAllocDriver.cpp.s /c "C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\FileAllocDriver.cpp"
 <<
 
 # Object files for target FileAllocDriver
@@ -110,9 +110,9 @@ FileAllocDriver.exe: CMakeFiles\FileAllocDriver.dir\FileAllocManager.cpp.obj
 FileAllocDriver.exe: CMakeFiles\FileAllocDriver.dir\FileAllocDriver.cpp.obj
 FileAllocDriver.exe: CMakeFiles\FileAllocDriver.dir\build.make
 FileAllocDriver.exe: CMakeFiles\FileAllocDriver.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable FileAllocDriver.exe"
-	C:\Users\Trevl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\FileAllocDriver.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\FileAllocDriver.dir\objects1.rsp @<<
- /out:FileAllocDriver.exe /implib:FileAllocDriver.lib /pdb:"C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\FileAllocDriver.pdb" /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable FileAllocDriver.exe"
+	C:\Users\Trevl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\FileAllocDriver.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\FileAllocDriver.dir\objects1.rsp @<<
+ /out:FileAllocDriver.exe /implib:FileAllocDriver.lib /pdb:"C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\FileAllocDriver.pdb" /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
@@ -125,6 +125,6 @@ CMakeFiles\FileAllocDriver.dir\clean:
 .PHONY : CMakeFiles\FileAllocDriver.dir\clean
 
 CMakeFiles\FileAllocDriver.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" "C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2" "C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2" "C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug" "C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug" "C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\CMakeFiles\FileAllocDriver.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" "C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2" "C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2" "C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug" "C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug" "C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\CMakeFiles\FileAllocDriver.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles\FileAllocDriver.dir\depend
 

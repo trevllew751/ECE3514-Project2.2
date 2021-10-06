@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/FileAllocManager.cpp" "C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/cmake-build-debug/CMakeFiles/student-tests.dir/FileAllocManager.cpp.obj"
-  "C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/student_catch.cpp" "C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/cmake-build-debug/CMakeFiles/student-tests.dir/student_catch.cpp.obj"
-  "C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/student_tests.cpp" "C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/cmake-build-debug/CMakeFiles/student-tests.dir/student_tests.cpp.obj"
+  "C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/FileAllocManager.cpp" "C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/cmake-build-debug/CMakeFiles/student-tests.dir/FileAllocManager.cpp.obj"
+  "C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/student_catch.cpp" "C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/cmake-build-debug/CMakeFiles/student-tests.dir/student_catch.cpp.obj"
+  "C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/student_tests.cpp" "C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/cmake-build-debug/CMakeFiles/student-tests.dir/student_tests.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

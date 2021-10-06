@@ -110,11 +110,10 @@ private:
   int occupiedBlocks;
     
   /** Find the file in the directory using file name
-      @param file - a file object we optionally want to modify
       @param filename - the name of the file to find in the directory
       @return the position of the file in the directory list, -1 if the file could not be found
   */
-  int findFile(File& file, std::string filename) const;
+  int findFile(std::string filename) const;
     
   /** Search will start at `start` position and go ahead till the last position. if all of these blocks are occupied, then search will continue from the first position to `start` - 1 position in the linked list
       @param start - the start position to search for the first unoccupied block in the disk,
