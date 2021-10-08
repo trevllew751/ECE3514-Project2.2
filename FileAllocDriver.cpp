@@ -7,7 +7,7 @@ int readFile(FileAllocManager &m, std::string filename);
 
 int readInput(FileAllocManager &m);
 
-int printCommands(FileAllocManager &m, const std::string& line);
+int printCommands(FileAllocManager &m, const std::string &line);
 
 std::vector<std::string> splitString(const std::string &str);
 
@@ -28,9 +28,7 @@ int readFile(FileAllocManager &m, std::string filename) {
         std::string line;
         while (std::getline(file, line)) {
             std::cout << ">>> " << line << std::endl;
-            if (printCommands(m, line) == EXIT_FAILURE) {
-                return EXIT_FAILURE;
-            }
+            printCommands(m, line);
         }
     } else {
         std::cout << "Error opening file." << std::endl;
@@ -44,38 +42,48 @@ int readInput(FileAllocManager &m) {
     while (true) {
         std::cout << ">>> ";
         std::getline(std::cin, line);
-        if (line == "exit" || line == "EXIT") {
+        if (line == "exit") {
+            std::cout << "Bye!" << std::endl;
             break;
         }
-        if (printCommands(m, line) == EXIT_FAILURE) {
-            return EXIT_FAILURE;
-        }
+        printCommands(m, line);
     }
     return EXIT_SUCCESS;
 }
 
-int printCommands(FileAllocManager &m, const std::string& line) {
+int printCommands(FileAllocManager &m, const std::string &line) {
     std::vector<std::string> strings = splitString(line);
     std::string command = strings.at(0);
     if (command == "add") {
-        std::string s = strings.at(2);
         int size = std::stoi(strings.at(2));
         std::vector<unsigned int> indices = m.addFile(strings.at(1), size);
-        std::cout << "Index block at position " << indices.at(0) << "." << std::endl;
-        for (int i = 1; i < indices.size(); i++) {
-            std::cout << "Block " << (i - 1) << " is at position " << indices.at(i) << "." << std::endl;
+        if (indices.empty()) {
+            if (MAX_BLOCKS - m.numOccupiedBlocks() < size + 1) {
+                std::cout << "Not enough disk space." << std::endl;
+            } else {
+                std::cout << "File already in directory." << std::endl;
+            }
+        } else {
+            std::cout << "Index block at position " << indices.at(0) << "." << std::endl;
+            for (int i = 1; i < indices.size(); i++) {
+                std::cout << "Block " << (i - 1) << " is at position " << indices.at(i) << "." << std::endl;
+            }
         }
     } else if (command == "del") {
         std::string fName = strings.at(1);
         if (m.deleteFile(fName)) {
             std::cout << fName << " is deleted successfully!" << std::endl;
         } else {
-            std::cout << "File does not exist." << std::endl;
+            std::cout << fName << " does not exist on the disk." << std::endl;
         }
     } else if (command == "list") {
         std::vector<std::string> files = m.listFiles();
-        for (std::string &f: files) {
-            std::cout << f << std::endl;
+        if (files.empty()) {
+            std::cout << "Empty Directory." << std::endl;
+        } else {
+            for (std::string &f: files) {
+                std::cout << f << std::endl;
+            }
         }
     } else if (command == "seek") {
         std::string fName = strings.at(1);
@@ -85,18 +93,21 @@ int printCommands(FileAllocManager &m, const std::string& line) {
             std::cout << fName << ": Block number " << blockNum << " on disk is " << location << "."
                       << std::endl;
         } else {
-            std::cout << "Invalid file or block number." << std::endl;
+            std::cout << fName << " does not have block " << blockNum << std::endl;
         }
     } else if (command == "disk") {
         std::vector<unsigned int> indices = m.printDisk();
-        std::cout << "Out of 64 blocks, the following blocks are occupied: " << std::endl;
-        for (unsigned int i : indices) {
-            std::cout << i << " ";
+        if (m.numOccupiedBlocks() == 0) {
+            std::cout << "Out of 64 blocks, none are occupied.";
+        } else {
+            std::cout << "Out of 64 blocks, the following blocks are occupied: " << std::endl;
+            for (unsigned int i : indices) {
+                std::cout << i << " ";
+            }
         }
         std::cout << std::endl;
     } else {
-        std::cout << "Invalid command." << std::endl;
-        return EXIT_FAILURE;
+        std::cout << "Invalid command!" << std::endl;
     }
     std::cout << std::endl;
     return EXIT_SUCCESS;
