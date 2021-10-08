@@ -1,0 +1,8 @@
+add file1 3
+add file2 4
+add file3 5
+del file2
+list
+seek file1 2
+seek file3 1
+disk
