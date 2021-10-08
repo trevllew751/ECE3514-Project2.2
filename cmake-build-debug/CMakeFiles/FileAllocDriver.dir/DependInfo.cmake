@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/FileAllocDriver.cpp" "C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/cmake-build-debug/CMakeFiles/FileAllocDriver.dir/FileAllocDriver.cpp.obj"
-  "C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/FileAllocManager.cpp" "C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/cmake-build-debug/CMakeFiles/FileAllocDriver.dir/FileAllocManager.cpp.obj"
+  "C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/FileAllocDriver.cpp" "C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/cmake-build-debug/CMakeFiles/FileAllocDriver.dir/FileAllocDriver.cpp.obj"
+  "C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/FileAllocManager.cpp" "C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/cmake-build-debug/CMakeFiles/FileAllocDriver.dir/FileAllocManager.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

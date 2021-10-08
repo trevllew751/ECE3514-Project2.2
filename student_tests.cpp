@@ -41,9 +41,18 @@ TEST_CASE("Test delete file", "[FileAllocManager]") {
     REQUIRE(m.numOccupiedBlocks() == 0);
 }
 
-//TEST_CASE("Test seek file", "[FileAllocManager]") {
-//
-//}
+TEST_CASE("Test seek file", "[FileAllocManager]") {
+    FileAllocManager m;
+    std::vector<unsigned int> vect = m.addFile("file3", 3);
+    unsigned int first = vect.at(1);
+    unsigned int second = vect.at(2);
+    unsigned int third = vect.at(3);
+    REQUIRE(m.seekFile("file3", 0) == first);
+    REQUIRE(m.seekFile("file3", 1) == second);
+    REQUIRE(m.seekFile("file3", 2) == third);
+    REQUIRE(m.seekFile("file4", 10) == -1);
+    REQUIRE(m.seekFile("file3", 10) == -1);
+}
 
 TEST_CASE("Test list files", "[FileAllocManager]") {
     FileAllocManager m;

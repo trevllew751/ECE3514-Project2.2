@@ -75,7 +75,15 @@ bool FileAllocManager::deleteFile(std::string filename) {
 }
 
 int FileAllocManager::seekFile(std::string filename, int blocknumber) const {
-    return 0;
+    int location = findFile(filename);
+    if (location == -1) {
+        return -1;
+    }
+    File f = directory.getEntry(location);
+    if (blocknumber >= f.size) {
+        return -1;
+    }
+    return f.indexBlock->arr[blocknumber];
 }
 
 std::vector<std::string> FileAllocManager::listFiles() const {

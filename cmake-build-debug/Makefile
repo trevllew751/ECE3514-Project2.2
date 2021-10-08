@@ -51,10 +51,10 @@ RM = C:\Users\Trevl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2"
+CMAKE_SOURCE_DIR = "C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -94,9 +94,9 @@ test\fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\CMakeFiles" "C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\CMakeFiles" "C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target

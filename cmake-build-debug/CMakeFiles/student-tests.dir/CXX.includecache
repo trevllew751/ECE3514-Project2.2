@@ -6,15 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/AbstractList.hpp
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/AbstractList.hpp
 cstdlib
 -
 
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/FileAllocManager.cpp
-FileAllocManager.hpp
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/FileAllocManager.hpp
-
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/FileAllocManager.hpp
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/FileAllocManager.hpp
 memory
 -
 ctime
@@ -26,35 +22,35 @@ iostream
 vector
 -
 Node.hpp
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/Node.hpp
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/Node.hpp
 LinkedList.hpp
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/LinkedList.hpp
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/LinkedList.hpp
 
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/LinkedList.hpp
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/LinkedList.hpp
 utility
 -
 AbstractList.hpp
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/AbstractList.hpp
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/AbstractList.hpp
 Node.hpp
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/Node.hpp
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/Node.hpp
 LinkedList.txx
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/LinkedList.txx
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/LinkedList.txx
 
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/LinkedList.txx
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/LinkedList.txx
 LinkedList.hpp
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/LinkedList.hpp
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/LinkedList.hpp
 stdexcept
 -
 
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/Node.hpp
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/Node.hpp
 Node.txx
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/Node.txx
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/Node.txx
 
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/Node.txx
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/Node.txx
 Node.hpp
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/Node.hpp
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/Node.hpp
 
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/catch.hpp
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/catch.hpp
 TargetConditionals.h
 -
 cstddef
@@ -436,7 +432,7 @@ string
 memory
 -
 Foundation/Foundation.h
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/Foundation/Foundation.h
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/Foundation/Foundation.h
 algorithm
 -
 signal.h
@@ -648,9 +644,9 @@ iomanip
 cassert
 -
 
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/student_tests.cpp
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/student_tests.cpp
 catch.hpp
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/catch.hpp
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/catch.hpp
 FileAllocManager.hpp
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/FileAllocManager.hpp
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/FileAllocManager.hpp
 
