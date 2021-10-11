@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 edit_cache"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="student-tests">
-				<Option output="C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/cmake-build-debug/student-tests.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/cmake-build-debug"/>
+				<Option output="C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/cmake-build-debug/student-tests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -43,15 +43,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 student-tests"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 student-tests"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="student-tests/fast">
-				<Option output="C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/cmake-build-debug/student-tests.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/cmake-build-debug"/>
+				<Option output="C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/cmake-build-debug/student-tests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -65,15 +65,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 student-tests/fast"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 student-tests/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FileAllocDriver">
-				<Option output="C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/cmake-build-debug/FileAllocDriver.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/cmake-build-debug"/>
+				<Option output="C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/cmake-build-debug/FileAllocDriver.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -87,15 +87,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 FileAllocDriver"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 FileAllocDriver"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FileAllocDriver/fast">
-				<Option output="C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/cmake-build-debug/FileAllocDriver.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/cmake-build-debug"/>
+				<Option output="C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/cmake-build-debug/FileAllocDriver.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -109,72 +109,72 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 FileAllocDriver/fast"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 FileAllocDriver/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="submission">
-				<Option working_dir="C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 submission"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 submission"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="test">
-				<Option working_dir="C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 test"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514 - Data Structures and Algorithms\Project2.2\ECE3514-Project2.2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 test"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Trevl\Desktop\Projects\School\ECE 3514  - Data Structures and Algorithms\Project 2.2\P2_2\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/FileAllocDriver.cpp">
+		<Unit filename="C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/FileAllocDriver.cpp">
 			<Option target="FileAllocDriver"/>
 		</Unit>
-		<Unit filename="C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/FileAllocManager.cpp">
-			<Option target="student-tests"/>
-			<Option target="FileAllocDriver"/>
-		</Unit>
-		<Unit filename="C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/FileAllocManager.hpp">
+		<Unit filename="C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/FileAllocManager.cpp">
 			<Option target="student-tests"/>
 			<Option target="FileAllocDriver"/>
 		</Unit>
-		<Unit filename="C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/LinkedList.hpp">
+		<Unit filename="C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/FileAllocManager.hpp">
 			<Option target="student-tests"/>
 			<Option target="FileAllocDriver"/>
 		</Unit>
-		<Unit filename="C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/Node.hpp">
+		<Unit filename="C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/LinkedList.hpp">
 			<Option target="student-tests"/>
 			<Option target="FileAllocDriver"/>
 		</Unit>
-		<Unit filename="C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/catch.hpp">
+		<Unit filename="C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/Node.hpp">
+			<Option target="student-tests"/>
+			<Option target="FileAllocDriver"/>
+		</Unit>
+		<Unit filename="C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/catch.hpp">
 			<Option target="student-tests"/>
 		</Unit>
-		<Unit filename="C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/student_catch.cpp">
+		<Unit filename="C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/student_catch.cpp">
 			<Option target="student-tests"/>
 		</Unit>
-		<Unit filename="C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/student_tests.cpp">
+		<Unit filename="C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/student_tests.cpp">
 			<Option target="student-tests"/>
 		</Unit>
-		<Unit filename="C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/CMakeLists.txt">
+		<Unit filename="C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

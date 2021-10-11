@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/AbstractList.hpp
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/AbstractList.hpp
 cstdlib
 -
 
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/FileAllocDriver.cpp
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/FileAllocDriver.cpp
 FileAllocManager.hpp
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/FileAllocManager.hpp
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/FileAllocManager.hpp
 fstream
 -
 iostream
@@ -22,7 +22,7 @@ string
 string.h
 -
 
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/FileAllocManager.hpp
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/FileAllocManager.hpp
 memory
 -
 ctime
@@ -34,31 +34,31 @@ iostream
 vector
 -
 Node.hpp
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/Node.hpp
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/Node.hpp
 LinkedList.hpp
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/LinkedList.hpp
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/LinkedList.hpp
 
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/LinkedList.hpp
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/LinkedList.hpp
 utility
 -
 AbstractList.hpp
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/AbstractList.hpp
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/AbstractList.hpp
 Node.hpp
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/Node.hpp
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/Node.hpp
 LinkedList.txx
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/LinkedList.txx
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/LinkedList.txx
 
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/LinkedList.txx
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/LinkedList.txx
 LinkedList.hpp
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/LinkedList.hpp
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/LinkedList.hpp
 stdexcept
 -
 
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/Node.hpp
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/Node.hpp
 Node.txx
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/Node.txx
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/Node.txx
 
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/Node.txx
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/Node.txx
 Node.hpp
-C:/Users/Trevl/Desktop/Projects/School/ECE 3514 - Data Structures and Algorithms/Project2.2/ECE3514-Project2.2/Node.hpp
+C:/Users/Trevl/Desktop/Projects/School/ECE 3514  - Data Structures and Algorithms/Project 2.2/P2_2/Node.hpp
 
