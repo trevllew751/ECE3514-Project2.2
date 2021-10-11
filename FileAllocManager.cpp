@@ -15,42 +15,48 @@ FileAllocManager::~FileAllocManager() {
 }
 
 void FileAllocManager::clear() {
-    for (Block &b : disk) {
-        b.occupied = false;
-        delete[] b.arr;
-        b.arr = nullptr;
-        b.arrSize = 0;
+    for (int i = 0; i < MAX_BLOCKS; i++) {
+        disk[i].occupied = false;
+        delete[] disk[i].arr;
+        disk[i].arr = nullptr;
+        disk[i].arrSize = 0;
     }
+    occupiedBlocks = 0;
     directory.clear();
 }
 
 std::vector<unsigned int> FileAllocManager::addFile(std::string filename, int filesize) {
     // Check invalid file size, if there are blocks, if the file exists already
-    if (filesize < 1 || (MAX_BLOCKS - numOccupiedBlocks()) < filesize + 1 || findFile(filename) != -1) {
+
+    int blocksNeeded = (int) ceil((double) filesize / (double) BLOCK_SIZE_KiB);
+
+    if (filesize < 0 ||
+        filesize > TOTAL_SIZE_KiB ||
+        (MAX_BLOCKS - numOccupiedBlocks()) < blocksNeeded + 1 ||
+        findFile(filename) != -1 ||
+        directory.getLength() >= MAX_FILES ||
+        filename.empty())
+    {
         return std::vector<unsigned int>();
     }
     std::vector<unsigned int> result;
 
-    // Create index block for the file
-    Block *index = new Block{true, new int[filesize], filesize};
-    int start = rand() % MAX_BLOCKS;                             // Random search start
-    int indexBlockLocation = findFirstAvailBlock(start);         // Find first open location
-    disk[indexBlockLocation] = *index;                            // Add index block to the disk
+    // Create index block for file
+    int indexBlockLocation = findFirstAvailBlock(rand() % MAX_BLOCKS);   // Find first open location
+    disk[indexBlockLocation].occupied = true;
+    disk[indexBlockLocation].arrSize = blocksNeeded;
+    disk[indexBlockLocation].arr = new int[blocksNeeded];
     result.push_back(indexBlockLocation);
     occupiedBlocks++;
 
-    int arrIndex = 0;
-    for (int i = 0; i < filesize; i++) {
-        int start = rand() % MAX_BLOCKS;
-        int location = findFirstAvailBlock(start);
-        Block b{true, nullptr, 0};
-        disk[location] = b;
+    for (int i = 0; i < blocksNeeded; i++) {
+        int location = findFirstAvailBlock(rand() % MAX_BLOCKS);
+        disk[location].occupied = true;
         occupiedBlocks++;
-        index->arr[arrIndex] = location;
+        disk[indexBlockLocation].arr[i] = location;
         result.push_back(location);
-        arrIndex++;
     }
-    File f{filename, filesize, index};
+    File f{filename, filesize, &disk[indexBlockLocation]};
     directory.insert(directory.getLength() + 1, f);
     return result;
 }
@@ -65,7 +71,7 @@ bool FileAllocManager::deleteFile(std::string filename) {
         disk[index->arr[i]].occupied = false;
         occupiedBlocks--;
     }
-//    delete[] index->arr;
+    delete[] index->arr;
     index->arr = nullptr;
     index->occupied = false;
     index->arrSize = 0;
@@ -80,21 +86,21 @@ int FileAllocManager::seekFile(std::string filename, int blocknumber) const {
         return -1;
     }
     File f = directory.getEntry(location);
-    if (blocknumber >= f.size) {
+    if (blocknumber >= f.size || blocknumber < 0) {
         return -1;
     }
     return f.indexBlock->arr[blocknumber];
 }
 
 std::vector<std::string> FileAllocManager::listFiles() const {
-    std::vector<File> files;
+//    std::vector<File> files;
     std::vector<std::string> result;
     for (int i = 1; i < directory.getLength() + 1; i++) {
-        files.push_back(directory.getEntry(i));
+        result.push_back(directory.getEntry(i).name);
     }
-    for (auto it = files.rbegin(); it != files.rend(); ++it) {
-        result.push_back((*it).name);
-    }
+//    for (auto it = files.rbegin(); it != files.rend(); ++it) {
+//        result.push_back((*it).name);
+//    }
     return result;
 }
 

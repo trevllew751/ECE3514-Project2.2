@@ -1,12 +1,12 @@
 #include "catch.hpp"
 #include "FileAllocManager.hpp"
 
-TEST_CASE( "Test construction", "[FileAllocManager]" )
+TEST_CASE("Test construction", "[FileAllocManager]")
 {
-  //INFO("Hint: default constructor must work)");
+    //INFO("Hint: default constructor must work)");
     FileAllocManager m;
     REQUIRE(m.numOccupiedBlocks() == 0);
-    
+
     m.addFile("file1", 2);
     REQUIRE(m.numOccupiedBlocks() == 3);
 }
@@ -20,9 +20,10 @@ TEST_CASE("Test add file", "[FileAllocManager]") {
     REQUIRE(m.numOccupiedBlocks() == 9);
     REQUIRE(m.addFile("file64", 100) == empty);
     REQUIRE(m.numOccupiedBlocks() == 9);
-    REQUIRE(m.addFile("file0", 0) == empty);
+    m.addFile("file0", 0);
+    REQUIRE(m.numOccupiedBlocks() == 10);
     REQUIRE(m.addFile("file1", 2) == empty);
-    REQUIRE(m.numOccupiedBlocks() == 9);
+    REQUIRE(m.numOccupiedBlocks() == 10);
 }
 
 
@@ -56,7 +57,7 @@ TEST_CASE("Test seek file", "[FileAllocManager]") {
 
 TEST_CASE("Test list files", "[FileAllocManager]") {
     FileAllocManager m;
-    std::vector<std::string> answer{"file3", "file2", "file1"};
+    std::vector<std::string> answer{"file1", "file2", "file3"};
     m.addFile("file1", 1);
     m.addFile("file2", 2);
     m.addFile("file3", 3);
